@@ -27,3 +27,13 @@ style.css (Modify)
 - Added comprehensive CSS styling for all sections, including colors, fonts, layout, and button styles.
 - Implemented smooth scrolling for navigation links using JavaScript.
 - Integrated basic form submission handling using JavaScript (client-side only).
+ Included social contact icons and links in the contact section.
+ - Added a placeholder profile image.
+
+ DAY 3
+  Finalize responsiveness and polish design
+
+- Added media queries in style.css to improve responsiveness across different screen sizes.
+- Adjusted font sizes, padding, and layout for smaller screens.
+- Ensured the design is consistent and functional on mobile devices.
+- General code cleanup and review.

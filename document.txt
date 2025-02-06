@@ -37,3 +37,4 @@ style.css (Modify)
 - Adjusted font sizes, padding, and layout for smaller screens.
 - Ensured the design is consistent and functional on mobile devices.
 - General code cleanup and review.
+Added the rest of the maintenance including ther cv

@@ -8,202 +8,209 @@
     <title>Gautham Krishna - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
     <style>
-        /* Embedded CSS for Poppins font fallback */
         @font-face {
             font-family: 'Poppins';
             src: local('Poppins Regular'), local('Poppins-Regular'),
-                url('poppins-regular.woff2') format('woff2'), /* Modern Browsers */
-                url('poppins-regular.woff') format('woff'); /* Older browsers */
+                url('poppins-regular.woff2') format('woff2'),
+                url('poppins-regular.woff') format('woff');
             font-weight: 400;
-            font-style: normal;
         }
 
         @font-face {
             font-family: 'Poppins';
             src: local('Poppins Bold'), local('Poppins-Bold'),
-                url('poppins-bold.woff2') format('woff2'), /* Modern Browsers */
-                url('poppins-bold.woff') format('woff'); /* Older browsers */
+                url('poppins-bold.woff2') format('woff2'),
+                url('poppins-bold.woff') format('woff');
             font-weight: 700;
-            font-style: normal;
         }
-
     </style>
 
     <script defer src="script.js"></script>
 </head>
 
 <body>
-    <header class="navigation">
-        <nav>
-            <a class="logo" href="#">GK</a>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>Hello, I'm Gautham Krishna</h1>
-            <h2>A Passionate Web Developer</h2>
-            <p>Crafting digital experiences with precision and creativity.</p>
-            <div class="hero-buttons">
-                <a href="Gautham's cv.pdf" download class="btn btn-primary">Download CV</a>
-            </div>
-        </div>
-        <div class="hero-image">
-            <img src="gautham.png" alt="Gautham Krishna">
-        </div>
-    </section>
+<header class="navigation" data-aos="fade-down">
+    <nav>
+        <a class="logo" href="#">GK</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <section class="about" id="about">
-        <div class="about-content">
-            <h2>About Me</h2>
+<section class="hero" id="home" data-aos="fade-up">
+    <div class="hero-content">
+        <h1>Hello, I'm Gautham Krishna</h1>
+        <h2>A Passionate Web Developer</h2>
+        <p>Crafting digital experiences with precision and creativity.</p>
+        <div class="hero-buttons">
+            <a href="GauthamKrishnaRresume.pdf" download class="btn btn-primary">Download CV</a>
+        </div>
+    </div>
+    <div class="hero-image">
+        <img src="gautham.png" alt="Gautham Krishna">
+    </div>
+</section>
+
+<section class="about" id="about" data-aos="fade-right">
+    <div class="about-content">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Gautham Krishna R, a Master of Computer Applications (MCA) student at FISAT Angamaly.
+            I'm driven by a passion for creating meaningful digital experiences and committed to a career in
+            web development and software debugging.
+        </p>
+        <p>
+            I've developed a keen interest in crafting intuitive and visually engaging web interfaces,
+            complemented by robust and efficient back-end functionality.
+        </p>
+        <p>
+            I enjoy exploring new frameworks and debugging challenging problems.
+        </p>
+    </div>
+</section>
+
+<section class="skills" id="skills" data-aos="fade-left">
+    <h2>My Skills</h2>
+    <div class="skill-list">
+        <div class="skill" data-aos="zoom-in">
+            <h3>Programming Languages</h3>
+            <p>C, C++, Java, Python, PHP</p>
+        </div>
+        <div class="skill" data-aos="zoom-in">
+            <h3>Databases</h3>
+            <p>SQL, MySQL, MongoDb</p>
+        </div>
+        <div class="skill" data-aos="zoom-in">
+            <h3>Front-End</h3>
+            <p>HTML5, CSS3, JavaScript, React, Bootstrap</p>
+        </div>
+        <div class="skill" data-aos="zoom-in">
+            <h3>Back-End</h3>
+            <p>Node.js, PHP</p>
+        </div>
+        <div class="skill" data-aos="zoom-in">
+            <h3>Tools & Technologies</h3>
+            <p>Git, Azure</p>
+        </div>
+    </div>
+</section>
+
+<section class="projects" id="projects" data-aos="zoom-in">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+        <div class="project" data-aos="flip-left">
+            <img src="project1.png">
+            <h3>PURE HARVEST</h3>
+            <p>Pure Harvest is a web application and android project helping farmers and customers efficiently.</p>
+        </div>
+
+        <div class="project" data-aos="flip-left">
+            <img src="Project2.png">
+            <h3>DEPARTMENT FEST MANAGEMENT SYSTEM</h3>
+            <p>Department fest management system is an event handling web based application using html,css and javascript.</p>
+        </div>
+
+        <div class="project" data-aos="flip-left">
+            <img src="project3.png">
+            <h3>MICROORGANISM DETECTION SYSTEM USING YOLOV7</h3>
             <p>
-                Hello! I'm Gautham Krishna R, a Master of Computer Applications (MCA) student at FISAT Angamaly.
-                I'm driven by a passion for creating meaningful digital experiences and committed to a career in
-                web development and software debugging.
-            </p>
-            <p>
-                I've developed a keen interest in crafting intuitive and visually engaging web interfaces,
-                complemented by robust and efficient back-end functionality. I aim to contribute to the tech world
-                with innovative solutions.
-            </p>
-            <p>
-                I enjoy exploring new web development frameworks, debugging challenging problems, and staying updated
-                with the latest trends in technology. I'm eager to collaborate on projects that push the boundaries of
-                creativity and technology.
+                This project is an intelligent water quality monitoring system that uses the YOLOv7 deep learning model
+                to detect microorganisms from microscopic water sample images. The system processes laboratory images,
+                identifies harmful microorganisms, analyzes contamination levels, and generates automated water quality
+                reports for environmental monitoring and laboratory analysis.
             </p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="skills" id="skills">
-        <h2>My Skills</h2>
-        <div class="skill-list">
-            <div class="skill">
-                <h3>Programming Languages</h3>
-                <p>C, C++, Java, Python, PHP</p>
-            </div>
-            <div class="skill">
-                <h3>Databases</h3>
-                <p>SQL, MySQL,</p>
-            </div>
-            <div class="skill">
-                <h3>Front-End</h3>
-                <p>HTML5, CSS3, JavaScript,</p>
-            </div>
-            <div class="skill">
-                <h3>Back-End</h3>
-                <p>Node.js, PHP</p>
-            </div>
-            <div class="skill">
-                <h3>Tools & Technologies</h3>
-                <p>Git, Azure</p>
-            </div>
+<section class="contact" id="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out for collaborations or inquiries.</p>
+
+    <!-- Social Contact Section -->
+    <div class="social-contacts">
+        <p>You can reach me through these channels:</p>
+        <ul class="social-icons">
+            <li><a href="https://www.facebook.com/gautham.krishnar.31" target="_blank">
+                <img src="facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://www.instagram.com/___.g_a_u_t_h_a_m.___/?hl=en" target="_blank">
+                <img src="insta.png" alt="Instagram"></a></li>
+            <li><a href="mailto:gauthamkrishnar6@gmail.com">
+                <img src="gmail.png" alt="Email"></a></li>
+            <li><a href="https://wa.me/+8590451893" target="_blank">
+                <img src="whatsapp.png" alt="Whatsapp"></a></li>
+            <li><a href="https://x.com/Gautham32253017" target="_blank">
+                <img src="x.jpg" alt="X"></a></li>
+            <li><a href="https://www.linkedin.com/in/gauthamkrishnar2210/" target="_blank">
+                <img src="linkein.jpg" alt="LinkedIn"></a></li>
+        </ul>
+    </div>
+
+    <form id="contactForm">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
         </div>
-    </section>
 
-    <section class="projects" id="projects">
-        <h2>My Projects</h2>
-        <div class="project-grid">
-            <div class="project">
-                <img src="project1.png" alt="Project 1">
-                <h3>PURE HARVEST</h3>
-                <p>Pure Harvest is a web application and andriod project which helps the farmer role and customer role more efficiently.</p>
-                <a href="#" class="btn btn-project">View Project</a>
-            </div>
-            <div class="project">
-                <img src="Project2.png" alt="Project 2">
-                <h3>DEPARTMENT FEST MANAGEMENT SYSTEM</h3>
-                <p>Department fest management system is a event handling web based application using html,css and javascript.</p>
-                <a href="#" class="btn btn-project">View Project</a>
-            </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
         </div>
-    </section>
 
-    <section class="contact" id="contact">
-        <h2>Contact Me</h2>
-        <p>Feel free to reach out for collaborations or inquiries.</p>
-
-        <!-- Social Contact Section -->
-        <div class="social-contacts">
-            <p>You can reach me through these channels:</p>
-            <ul class="social-icons">
-                <li><a href="https://www.facebook.com/gautham.krishnar.31" target="_blank"><img src="facebook.png"
-                            alt="Facebook"></a></li>
-                <li><a href="https://www.instagram.com/gautham___krishna_/" target="_blank"><img src="insta.png"
-                            alt="instagram"></a></li>
-                <li><a href="mailto:gauthamkrishnar6@gmail.com"><img src="gmail.png" alt="Email"></a></li>
-                <li><a href="https://wa.me/+8590451893" target="_blank"><img src="whatsapp.png"
-                            alt="Whatsapp"></a></li>
-                  <li><a href="https://x.com/Gautham32253017" target="_blank"><img src="x.jpg"
-                            alt="x"></a></li>
-                <li><a href="https://www.linkedin.com/in/%20gautham-krishna-r-27421a29a" target="_blank"><img src="linkein.jpg"
-                              alt="x"></a></li>
-            </ul>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
         </div>
-        <!-- End Social Contact Section -->
 
-        <form id="contactForm">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-submit">Send Message</button>
-        </form>
-    </section>
+        <button type="submit" class="btn btn-submit">Send Message</button>
+    </form>
+</section>
 
-    <footer>
-        <p>© 2023 Gautham Krishna. All rights reserved.</p>
-    </footer>
 
-    <script>
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
+<footer>
+    <p>© 2023 Gautham Krishna. All rights reserved.</p>
+</footer>
 
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init({ duration: 1000, once: true });
+/* Smooth scrolling */
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
         });
+    });
+});
 
-        // Basic form submission handling (replace with your actual logic)
-        document.getElementById('contactForm').addEventListener('submit', function (event) {
-            event.preventDefault(); // Prevent the default form submission
+/* Form submission */
+document.getElementById('contactForm').addEventListener('submit', function (event) {
+    event.preventDefault();
 
-            // Get form values
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
 
-            // Simple validation (you can add more)
-            if (!name || !email || !message) {
-                alert('Please fill in all fields.');
-                return;
-            }
+    if (!name || !email || !message) {
+        alert('Please fill in all fields.');
+        return;
+    }
 
-            // Display a confirmation message (replace with your actual sending logic)
-            alert('Message sent!\nName: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+    alert('Message sent!\nName: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+    document.getElementById('contactForm').reset();
+});
+</script>
 
-            // Clear the form
-            document.getElementById('contactForm').reset();
-        });
-    </script>
 </body>
-
 </html>
